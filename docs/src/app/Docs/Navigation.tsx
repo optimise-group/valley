@@ -58,7 +58,7 @@ export default function DocsNavigation() {
         {
           title: 'Changelog',
           icon: viStar,
-          link: '/docs/changelog'
+          link: '/changelog'
         }
       ]
     }

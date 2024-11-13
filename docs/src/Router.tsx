@@ -69,6 +69,17 @@ const router = createHashRouter([
             element: <Changelog />
           }
         ]
+      },
+      {
+        path: '/changelog',
+        element: <Docs />,
+        errorElement: <Error />,
+        children: [
+          {
+            index: true,
+            element: <Changelog />
+          }
+        ]
       }
     ]
   }
