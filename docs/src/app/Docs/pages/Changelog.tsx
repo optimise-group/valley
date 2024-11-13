@@ -11,7 +11,7 @@ export default function Changelog() {
         name="Valkyrie 1.0 alpha 50"
         version="1.0.0-alpha.50"
         date="13 November 2024"
-        newIcons={['diagram', 'magnifying-glass-min', 'magnifying-glass-plus', 'microphone-slash', 'phone-hangup']}
+        newIcons={['diagram', 'magnifying-glass-min', 'magnifying-glass-plus', 'microphone-slash', 'phone-xmark']}
       />
       <Release
         name="Valkyrie 1.0 alpha 49"
