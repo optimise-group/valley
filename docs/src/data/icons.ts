@@ -1635,8 +1635,8 @@ const icons = [
   },
   {
     component: 'viPhoneXmark',
-    categories: [],
-    tags: [],
+    categories: ["business","communication","maps"],
+    tags: ["telephone","call","hangup"],
     slug: 'phone-xmark',
     icon: viPhoneXmark
   },
