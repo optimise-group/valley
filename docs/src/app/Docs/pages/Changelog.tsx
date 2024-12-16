@@ -7,6 +7,13 @@ import Release from './_Release';
 export default function Changelog() {
   return (
     <Stack gap={5}>
+      <Release
+        name="Valkyrie 1.0 alpha 52"
+        version="1.0.0-alpha.52"
+        date="December 2024"
+        added={[<>Improvements to React 19 support.</>]}
+        newIcons={['car-side']}
+      />
       <Release name="Valkyrie 1.0 alpha 51" version="1.0.0-alpha.51" date="11 December 2024" added={[<>Valkyrie now supports React 19.</>]} />
       <Release
         name="Valkyrie 1.0 alpha 50"
