@@ -12,7 +12,7 @@ export default function Changelog() {
         version="1.0.0-alpha.52"
         date="December 2024"
         added={[<>Improvements to React 19 support.</>]}
-        newIcons={['car-side']}
+        newIcons={['car-side', 'react']}
       />
       <Release name="Valkyrie 1.0 alpha 51" version="1.0.0-alpha.51" date="11 December 2024" added={[<>Valkyrie now supports React 19.</>]} />
       <Release
