@@ -1728,6 +1728,20 @@ export const viReceipt: {
   name: 'receipt',
   data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="vi" viewBox="0 0 16 16"><path d="M5.75 5.5a.75.75 0 0 0 0 1.5h4.5a.75.75 0 0 0 0-1.5zm0 3.5a.75.75 0 0 0 0 1.5h4.5a.75.75 0 0 0 0-1.5z"/><path d="M3.314.256A.75.75 0 0 0 2 .75v14.5a.75.75 0 0 0 1.314.494L4.5 14.389l1.186 1.355a.75.75 0 0 0 1.128 0L8 14.389l1.186 1.355a.75.75 0 0 0 1.128 0l1.186-1.355 1.186 1.355A.75.75 0 0 0 14 15.25V.75a.75.75 0 0 0-1.314-.494L11.5 1.611 10.314.256a.75.75 0 0 0-1.128 0L8 1.611 6.814.256a.75.75 0 0 0-1.128 0L4.5 1.611zm1.75 2.988L6.25 1.889l1.186 1.355a.75.75 0 0 0 1.128 0L9.75 1.889l1.186 1.355a.75.75 0 0 0 1.128 0l.436-.498v10.508l-.436-.498a.75.75 0 0 0-1.128 0L9.75 14.111l-1.186-1.355a.75.75 0 0 0-1.128 0L6.25 14.111l-1.186-1.355a.75.75 0 0 0-1.128 0l-.436.498V2.746l.436.498a.75.75 0 0 0 1.128 0"/></svg>`,
 };
+export const viRecordStop: {
+  name: 'record_stop';
+  data: string;
+} = {
+  name: 'record_stop',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="vi" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14.5 8a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6 5a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1z"/><path d="M6 5a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1z"/><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-1.5 0a6.5 6.5 0 1 0-13 0 6.5 6.5 0 0 0 13 0"/></svg>`,
+};
+export const viRecord: {
+  name: 'record';
+  data: string;
+} = {
+  name: 'record',
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="vi" viewBox="0 0 16 16"><path d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-1.5 0a6.5 6.5 0 1 0-13 0 6.5 6.5 0 0 0 13 0"/></svg>`,
+};
 export const viRectangleP: {
   name: 'rectangle_p';
   data: string;
@@ -1740,7 +1754,7 @@ export const viRedo: {
   data: string;
 } = {
   name: 'redo',
-  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="vi" viewBox="0 0 16 16"><path d="M9.298 3.359a3.25 3.25 0 0 0-4.596 0l-.343.343a3.25 3.25 0 0 0 0 4.596L9.78 13.72a.75.75 0 1 1-1.06 1.06L3.298 9.36a4.75 4.75 0 0 1 0-6.718l.343-.343a4.75 4.75 0 0 1 6.718 0L12.5 4.44V1.75a.75.75 0 0 1 1.5 0v4.5a.75.75 0 0 1-.75.75h-4.5a.75.75 0 0 1 0-1.5h2.69z"/></svg>`,
+  data: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="vi" viewBox="0 0 16 16"><path d="M9.298 3.359a3.25 3.25 0 0 0-4.596 0l-.343.343a3.25 3.25 0 0 0 0 4.596L9.78 13.72a.75.75 0 0 1-1.06 1.06L3.298 9.36a4.75 4.75 0 0 1 0-6.718l.343-.343a4.75 4.75 0 0 1 6.718 0L12.5 4.44V1.75a.75.75 0 0 1 1.5 0v4.5a.75.75 0 0 1-.75.75h-4.5a.75.75 0 1 1 0-1.5h2.69z"/></svg>`,
 };
 export const viRepeatOnce: {
   name: 'repeat_once';
@@ -2431,6 +2445,8 @@ export type Valkyrie =
   | 'quote'
   | 'react'
   | 'receipt'
+  | 'record_stop'
+  | 'record'
   | 'rectangle_p'
   | 'redo'
   | 'repeat_once'
@@ -2750,6 +2766,8 @@ export const valkyrieSet = [
   viQuote,
   viReact,
   viReceipt,
+  viRecordStop,
+  viRecord,
   viRectangleP,
   viRedo,
   viRepeatOnce,
