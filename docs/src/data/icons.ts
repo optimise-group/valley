@@ -1719,8 +1719,8 @@ const icons = [
   },
   {
     component: 'viReact',
-    categories: [],
-    tags: [],
+    categories: ["brands"],
+    tags: ["software"],
     slug: 'react',
     icon: viReact
   },
