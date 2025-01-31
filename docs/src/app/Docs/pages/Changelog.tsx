@@ -8,6 +8,29 @@ export default function Changelog() {
   return (
     <Stack gap={5}>
       <Release
+        name="Valkyrie 1.0 alpha 53"
+        version="1.0.0-alpha.53"
+        date="31 January 2025"
+        newIcons={[
+          'align-center',
+          'align-left',
+          'align-justify',
+          'align-right',
+          'horizontal-line',
+          'subscript',
+          'superscript',
+          'table-column-insert-right',
+          'table-cell-merge',
+          'table-column-insert-left',
+          'table-header-cell',
+          'table-column-min',
+          'table-row-insert-top',
+          'table-min',
+          'table-row-min',
+          'table-row-insert-bottom'
+        ]}
+      />
+      <Release
         name="Valkyrie 1.0 alpha 52"
         version="1.0.0-alpha.52"
         date="8 January 2025"
